@@ -1,4 +1,3 @@
-[09:37] Fayçal CHEBIHI
 
 ## Titre du projet : Application de gestion de tâches
 
