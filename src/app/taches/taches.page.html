@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="warning">
+    <ion-title >Tache</ion-title>
+  </ion-toolbar>
+  <ion-img [src]=""></ion-img>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <app-single-tache *ngFor="let tache of taches" [singleTache]="tache" ></app-single-tache>
+  </ion-list>
+</ion-content>
+
+
